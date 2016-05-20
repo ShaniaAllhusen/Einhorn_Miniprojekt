@@ -22,6 +22,15 @@ body {
 	height: 200px;
 }
 
+#EinhornSpiel {
+	background-image: url(DasWeißeEinhornSpiel.jpg);
+	background-size: cover;
+	margin-left: 20px;
+	list-style: none;
+	width: 400px;
+	height: 200px;
+}
+
 #unicorn {
 	background-image: url(unicorn.gif);
 	background-size: cover;
@@ -31,14 +40,7 @@ body {
 	height: 200px;
 }
 
-#EinhornWeiss {
-	background-image: url(Das weiße Einhorn Spiel.jpg);
-	background-size: cover;
-	margin-left: 20px;
-	list-style: none;
-	width: 200px;
-	height: 200px;
-}
+
 
 #Robot {
 	background-image: url(robot_unicorn_attack.jpg);
