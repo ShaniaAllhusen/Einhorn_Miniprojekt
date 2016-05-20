@@ -1,3 +1,51 @@
 body {
 	background-color: #D6C2D6;
 }
+
+#Sternenschweif {
+	/* Test */
+	background-image: url(SternenschweifBuch.jpg);
+	background-size: cover;
+	margin-left: 20px;
+	list-style: none;
+	width: 200px;
+	height: 200px;
+
+} 
+
+#Mia {
+	background-image: url(MiaAndMe.jpeg);
+	background-size: cover;
+	margin-left: 20px;
+	list-style: none;
+	width: 200px;
+	height: 200px;
+}
+
+#unicorn {
+	background-image: url(unicorn.gif);
+	background-size: cover;
+	margin-left: 20px;
+	list-style: none;
+	width: 300px;
+	height: 200px;
+}
+
+#EinhornWeiss {
+	background-image: url(Das weiße Einhorn Spiel.jpg);
+	background-size: cover;
+	margin-left: 20px;
+	list-style: none;
+	width: 200px;
+	height: 200px;
+}
+
+#Robot {
+	background-image: url(robot_unicorn_attack.jpg);
+	background-size: cover;
+	margin-left: 20px;
+	list-style: none;
+	width: 300px;
+	height: 200px;
+}
+
