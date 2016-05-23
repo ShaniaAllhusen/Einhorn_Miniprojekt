@@ -1,7 +1,6 @@
 body {
 	background-image: url("hintergrund.jpg");
-
-	
+	background-repeat: repeat-y; float: right;
 }
 
 #SchriftBuch {
@@ -46,14 +45,18 @@ body {
 	height: 200px;
 }
 
-#kopfbereich {
-  background: url(Einhorn.jpg) no-repeat left top;
-  height: 300px;
-  width: 1100px;
+div.kopfbereich {
+ border: 2px solid black;
+ background: url(Einhorn.jpg) no-repeat left top;
+height: 200px;
+
+text-align: center;
+margin-left: 120px;
+margin-right: 120px;
+padding-left: 50px;
+padding-right: 50px;
+background-repeat: repeat-x; float: left;
 }
-
-
-
 
 #Robot {
 	background-image: url(robot_unicorn_attack.jpg);
@@ -63,5 +66,4 @@ body {
 	width: 300px;
 	height: 200px;
 }
-
 
