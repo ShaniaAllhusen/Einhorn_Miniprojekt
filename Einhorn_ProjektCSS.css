@@ -1,10 +1,7 @@
 body {
-	background-image: url("hintergrund.jpg");
-	background-repeat: repeat-y; float: right;
-}
-
-#SchriftBuch {
-	color: white;
+	background-image: url("hintergrund.png");
+	background-repeat:  repeat-y; float: right;
+ 	background-position: top;
 }
 
 #Sternenschweif {
@@ -47,15 +44,16 @@ body {
 
 div.kopfbereich {
  border: 2px solid black;
- background: url(Einhorn.jpg) no-repeat left top;
-height: 200px;
-
+ background: url(Einhorn.jpg);
+	height: 300px;
+	width: 800px;
 text-align: center;
 margin-left: 120px;
 margin-right: 120px;
 padding-left: 50px;
 padding-right: 50px;
 background-repeat: repeat-x; float: left;
+position: center;
 }
 
 #Robot {
