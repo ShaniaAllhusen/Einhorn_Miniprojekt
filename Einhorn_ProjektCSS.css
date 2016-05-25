@@ -66,6 +66,27 @@ position: center;
 	height: 200px;
 }
 
-#menue {
+#Statistik{
+	background-image: url(Unicorn-Club.jpg);
+	background-size: cover;
+	margin-left: 20px;
+	list-style: none;
+	width: 500px;
+	height: 350px;
+}
+
+#start {
 	position: center;
+}
+
+#Schrift{
+	text-align: center;
+}
+
+#IT{
+	position: relative;	
+}
+
+#einrueken{
+	text-indent: 3em;
 }
