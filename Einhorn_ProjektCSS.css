@@ -9,7 +9,7 @@ body {
 	/* Test */
 	background-image: url(SternenschweifBuch.jpg);
 	background-size: cover;
-	margin-left: 20px;
+	margin-left: 300px;
 	list-style: none;
 	width: 200px;
 	height: 200px;
@@ -19,7 +19,7 @@ body {
 #Mia {
 	background-image: url(MiaAndMe.jpeg);
 	background-size: cover;
-	margin-left: 20px;
+	margin-left: 300px;
 	list-style: none;
 	width: 200px;
 	height: 200px;
@@ -28,16 +28,17 @@ body {
 #EinhornSpiel {
 	background-image: url(DasWeißeEinhornSpiel.jpg);
 	background-size: cover;
-	margin-left: 20px;
+	margin-left: 250px;
 	list-style: none;
 	width: 400px;
 	height: 200px;
+	align: center;
 }
 
 #unicorn {
 	background-image: url(unicorn.gif);
 	background-size: cover;
-	margin-left: 20px;
+	margin-left: 290px;
 	list-style: none;
 	width: 300px;
 	height: 200px;
@@ -49,8 +50,8 @@ div.kopfbereich {
 	height: 300px;
 	width: 800px;
 text-align: center;
-margin-left: 120px;
-margin-right: 120px;
+margin-left: 0px;
+margin-right: 0px;
 padding-left: 50px;
 padding-right: 50px;
 background-repeat: repeat-x; float: left;
@@ -60,7 +61,7 @@ position: center;
 #Robot {
 	background-image: url(robot_unicorn_attack.jpg);
 	background-size: cover;
-	margin-left: 20px;
+	margin-left: 290px;
 	list-style: none;
 	width: 300px;
 	height: 200px;
