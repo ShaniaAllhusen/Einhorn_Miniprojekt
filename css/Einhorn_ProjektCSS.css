@@ -1,0 +1,93 @@
+body {
+	background-image: url(hintergrund.jpg);
+	background-repeat:  repeat-y; float: right;
+ 	background-position: top;
+	background-attachment: fixed;
+}
+
+#Sternenschweif {
+	/* Test */
+	background-image: url(SternenschweifBuch.jpg);
+	background-size: cover;
+	margin-left: 300px;
+	list-style: none;
+	width: 200px;
+	height: 200px;
+
+} 
+
+#Mia {
+	background-image: url(MiaAndMe.jpeg);
+	background-size: cover;
+	margin-left: 300px;
+	list-style: none;
+	width: 200px;
+	height: 200px;
+}
+
+#EinhornSpiel {
+	background-image: url(DasWeißeEinhornSpiel.jpg);
+	background-size: cover;
+	margin-left: 250px;
+	list-style: none;
+	width: 400px;
+	height: 200px;
+	align: center;
+}
+
+#unicorn {
+	background-image: url(unicorn.gif);
+	background-size: cover;
+	margin-left: 290px;
+	list-style: none;
+	width: 300px;
+	height: 200px;
+}
+
+div.kopfbereich {
+ border: 2px solid black;
+ background: url(Einhorn.jpg);
+	height: 300px;
+	width: 800px;
+text-align: center;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 50px;
+padding-right: 50px;
+background-repeat: repeat-x; float: left;
+position: center;
+}
+
+#Robot {
+	background-image: url(robot_unicorn_attack.jpg);
+	background-size: cover;
+	margin-left: 290px;
+	list-style: none;
+	width: 300px;
+	height: 200px;
+}
+
+#Statistik{
+	background-image: url(Unicorn-Club.jpg);
+	background-size: cover;
+	margin-left: 20px;
+	list-style: none;
+	width: 500px;
+	height: 350px;
+}
+
+#start {
+	position: center;
+}
+
+#Schrift{
+	text-align: center;
+}
+
+#IT{
+	position: relative;	
+}
+
+#einrueken{
+	text-indent: 3em;
+}
