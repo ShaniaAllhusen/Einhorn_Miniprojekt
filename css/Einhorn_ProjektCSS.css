@@ -1,18 +1,14 @@
 body {
-	background-image: url("hintergrund.png");
+	background-image: url(../pictures/hintergrund.png);
+	background-repeat: repeat-y; float: right;
  	background-position: top;
 	background-attachment: fixed;
-	font-size: 20px;
-	page-break-after:auto;
-
 }
 
 table {
     font-size:18px;
     font-family: Arial, Verdana;
-   } 
-
-
+  } 
 
 #Sternenschweif {
 	/* Test */
@@ -51,6 +47,20 @@ table {
 	list-style: none;
 	width: 300px;
 	height: 200px;
+}
+
+div.kopfbereich {
+ border: 2px solid black;
+ background: url(Einhorn.jpg);
+	height: 300px;
+	width: 800px;
+text-align: center;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 50px;
+padding-right: 50px;
+background-repeat: repeat-x; float: left;
+position: center;
 }
 
 #Robot {
@@ -101,7 +111,6 @@ header {
 	right: 0;
 	left: 0;
 }
-
 
 /*div.kopfbereich {
  border: 2px solid black;
