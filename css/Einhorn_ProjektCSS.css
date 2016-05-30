@@ -4,6 +4,7 @@ body {
  	background-position: top;
 	background-attachment: fixed;
 	text-align: justify;
+	  font-family: Arial, Verdana;
 }
 
 table {
@@ -78,12 +79,9 @@ table {
 	display: block;
 }
 
-#start {
-	position: center;
-}
-
 #Schrift{
 	text-align: center;
+	font-size: 20px;
 }
 
 #IT{
@@ -112,7 +110,7 @@ header {
 #footer {
 	background-color: pink;
 	position: absolute;
-	text-align: center;
+	text-align: bottom;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -121,6 +119,7 @@ header {
 	font-size: 20px;
 	color: blue;
 	object-fit: contain;
+
 }
 
 #wrapper {
