@@ -91,6 +91,7 @@ table {
 #Schrift{
 	text-align: center;
 	font-size: 20px;
+	background: rgba(223, 144, 192,0.5);
 }
 
 #IT{
@@ -135,20 +136,6 @@ header {
  height: auto;
  margin:0 auto -50px; 
  }
-
- div.kopfbereich {
- border: 2px solid black;
- background: url(../pictures/Einhorn.jpg);
-	height: 300px;
-	width: 800px;
-text-align: center;
-margin-left: 0px;
-margin-right: 0px;
-padding-left: 50px;
-padding-right: 50px;
-background-repeat: repeat-x; float: left;
-position: center;
-}
 
 .content {
 	height: 800px;
