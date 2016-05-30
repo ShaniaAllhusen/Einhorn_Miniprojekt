@@ -4,13 +4,22 @@ body {
  	background-position: top;
 	background-attachment: fixed;
 	text-align: justify;
+	font-size: 20px;
+	font-family: Arial, Verdana;
 }
 
 table {
     font-size: 20px;
     font-family: Arial, Verdana;
     text-align: justify;
-  } 
+  }
+
+ table a {
+ 	text-decoration: none;
+ 	font-size: 16px;
+ 	height: 50px;
+
+ }
 
 #Sternenschweif {
 	background-image: url(../pictures/SternenschweifBuch.jpg);
@@ -78,10 +87,6 @@ table {
 	display: block;
 }
 
-#start {
-	position: center;
-}
-
 #Schrift{
 	text-align: center;
 }
@@ -111,7 +116,7 @@ header {
 
 #footer {
 	background-color: pink;
-	position: absolute;
+	position: inherit;
 	text-align: center;
 	left: 0;
 	right: 0;
@@ -142,6 +147,10 @@ padding-left: 50px;
 padding-right: 50px;
 background-repeat: repeat-x; float: left;
 position: center;
+}
+
+.content {
+	height: 800px;
 }
 
 
