@@ -21,6 +21,15 @@ table {
  	height: 50px;
  }
 
+ table th {
+ 	width: 200px;
+ 	border-spacing:10pt;
+ }
+
+ #text {
+ 	width: 2000px;
+ }
+
  a:link, a:visited {
 	color: black;
 }
