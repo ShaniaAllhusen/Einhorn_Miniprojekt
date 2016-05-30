@@ -12,15 +12,22 @@ body {
 table {
     font-size: 20px;
     font-family: Arial, Verdana;
-    text-align: justify;
+    text-align: center;
   }
 
  table a {
  	text-decoration: none;
  	font-size: 16px;
  	height: 50px;
-
  }
+
+ a:link, a:visited {
+	color: black;
+}
+
+a:active, a:hover {
+	color: black;
+}
 
 #Sternenschweif {
 	background-image: url(../pictures/SternenschweifBuch.jpg);
@@ -80,7 +87,7 @@ table {
 #Statistik{
 	background-image: url(../pictures/Unicorn-Club.jpg);
 	background-size: cover;
-	 margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
 	list-style: none;
 	width: 500px;
@@ -91,7 +98,12 @@ table {
 #Schrift{
 	text-align: center;
 	font-size: 20px;
-	background: rgba(223, 144, 192,0.5);
+}
+
+#überschrift {
+	text-align: center;
+	font-size: 30px;
+	height: 70px;
 }
 
 #IT{
@@ -102,24 +114,9 @@ table {
 	text-align: center;
 }
 
-header {
-	background-image: url(../pictures/Einhorn.jpg); 
-	background-size: cover;
-	text-align: center;
-	position: relative
-	max-width: 3000px;
-	min-width: 400px;
-	min-height: 250px;
-	max-height: 500px;
-	object-fit: contain;
-	top: 0;
-	right: 0;
-	left: 0;
-}
-
 #footer {
-	background-color: pink;
-	position: inherit;
+	background-color: #F58FC1;
+	position: bottom;
 	text-align: center;
 	left: 0;
 	right: 0;
@@ -127,20 +124,21 @@ header {
 	margin-bottom: 0;
 	height: 2em;
 	font-size: 20px;
-	color: blue;
 }
-
-#wrapper {
- position: relative;
- min-height: 10%;
- height: auto;
- margin:0 auto -50px; 
- }
 
 .content {
-	height: 800px;
+min-height: 800px;
 }
 
+.content ul {
+	text-align: left;
+}
+
+#unterschrift {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
 
 /*div.kopfbereich {
  border: 2px solid black;
