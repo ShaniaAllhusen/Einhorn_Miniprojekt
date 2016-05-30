@@ -1,0 +1,149 @@
+body {
+	background-image: url(../pictures/hintergrund.png);
+	background-repeat: repeat-y; float: right;
+ 	background-position: top;
+	background-attachment: fixed;
+	text-align: justify;
+}
+
+table {
+    font-size: 20px;
+    font-family: Arial, Verdana;
+    text-align: justify;
+  } 
+
+#Sternenschweif {
+	background-image: url(../pictures/SternenschweifBuch.jpg);
+	background-size: cover;
+	list-style: none;
+	width: 200px;
+	height: 200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+} 
+
+#Mia {
+	background-image: url(../pictures/MiaAndMe.jpeg);
+	background-size: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	list-style: none;
+	width: 200px;
+	height: 200px;
+}
+
+#EinhornSpiel {
+	background-image: url(../pictures/DasWeißeEinhornSpiel.jpg);
+	background-size: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	list-style: none;
+	width: 400px;
+	height: 200px;
+}
+
+#unicorn {
+	background-image: url(../pictures/unicorn.gif);
+	background-size: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	list-style: none;
+	width: 300px;
+	height: 200px;
+}
+
+#Robot {
+	background-image: url(../pictures/robot_unicorn_attack.jpg);
+	background-size: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	list-style: none;
+	width: 300px;
+	height: 200px;
+}
+
+#Statistik{
+	background-image: url(../pictures/Unicorn-Club.jpg);
+	background-size: cover;
+	 margin-left: auto;
+    margin-right: auto;
+	list-style: none;
+	width: 500px;
+	height: 350px;
+	display: block;
+}
+
+#start {
+	position: center;
+}
+
+#Schrift{
+	text-align: center;
+	background: rgba(223, 144, 192,0.5);
+}
+
+#IT{
+	text-align: center;	
+}
+
+#center{
+	text-align: center;
+}
+
+header {
+	background-image: url(../pictures/Einhorn.jpg); 
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	max-width: 3000px;
+	min-width: 400px;
+	min-height: 250px;
+	max-height: 500px;
+	object-fit: contain;
+	margin-bottom: 10px;
+	border: 2px solid black;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+
+}
+
+#footer {
+	background-color: pink;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: 0;
+	height: 2em;
+	font-size: 20px;
+	color: blue;
+	object-fit: contain;
+}
+
+#wrapper {
+ position: relative;
+ min-height: 10%;
+ height: auto;
+ margin:0 auto -50px; 
+}
+
+
+/*div.kopfbereich {
+ border: 2px solid black;
+ background: url(../pictures/Einhorn.jpg);
+	height: 300px;
+	width: 800px;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 50px;
+padding-right: 50px;
+background-repeat: repeat-x; float: left;
+}
+*/
